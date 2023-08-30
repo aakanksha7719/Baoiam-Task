@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--=============== FAVICON ===============-->
+  <link rel="shourtcut icon" href="img/logo2.png" />
+
+  <!--=============== REMIXICONS ===============-->
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- fas fa icon link -->
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="css/team2.css" />
+  <link rel="stylesheet" href="css/team3.css">
+  <link rel="stylesheet" href="css/about-us.css">
+
+  <style>
+    body {
+     
+     font-family: 'Times New Roman', Times, serif;
+    
+   }
+   </style>
+ 
+   <title>Beauty Products Shop</title>
+</head>
+
+<body>
+  <header>
+    <div class="top_nav">
+      <div class="row-outer">
+        <div class="container">
+          <div class="animated-heading">
+            <span id="words">Beauty is about enhancing what you have.</span>
+          </div>
+        </div>
+
+        <div class="header-icons">
+          <li> <a href="#"><i class='bx bx-user'><span>ACCOUNT</span></i></a></li>
+          <li> <a href="#"><i class='bx bx-heart'><span>WISHLIST<span></span></i></a></li>
+          <li> <a href="#"><i class='bx bx-map'><span>STORE</span></i></a></li>
+          <li><a href="#"> <i class="bx bx-phone"><span>888-256-9448</span></i></a></li>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="menu-bar">
+      <a href="#" class="logo">
+        <img src="img/logo2.png">
+        <div class="navbar">
+          <div class="openMenu"><i class="fa fa-bars"></i></div>
+          <ul class="mainMenu">
+            <li id="nav-items"><a href="index.html">Home</a></li>
+            <li><a href="./about-us.html">About</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li id="nav-items"><a href="./contact.html">Contact </a></li>
+            <div class="search">
+              <input type="text" name="search" id="search" placeholder=" Search on Baoiam">
+              <li class="fas fa-search"></li>
+            </div>
+            <button class="nav_btn">Login</button>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+
+          </ul>
+        </div>
+    </div>
+  </header>
+
+  
+   
+
+
+
+
+ 
+    <div class="wrapper">
+
+        <div class="background-container">
+            <div class="bg-1"></div>
+            <!--div class="bg-2"></div-->
+    
+        </div>
+        <div class="about-container">
+            
+            <div class="image-container">
+                <img src="img/logo2.png" alt="">
+                
+            </div>
+
+            <div class="text-container">
+                <h1>About us</h1>
+                <!--p>“We see our customers as invited guests to a party, and we are the hosts. <br>It’s our job every day to make every important aspect of the customer experience a little bit better.”</p-->
+                <!--p>"Baoiam is an EdTech startup which provides the learning and placement opportunities to various students in the field of engineering, technology, cyber security, AI, IT and academics. 
+                  Baoiam is a fully-certified platform since 2021, helping thousands of students through the entire world to achieve their personal and professional goals. It is a platform which provides various courses as well as the opportunities in the field of education and career. 
+                  The essence of our work is to facilitate self-growth by helping students to identify the core challenges and setbacks in their life, so that they can overcome their fear with confidence. 
+                  We are specialize in creating personalized plans and providing tools to guide them."</p>
+                <a href="">Read More</a-->
+                  <p>A brand of choice for the women of today! And we're here to ensure you have a lot of fun with our makeup.
+
+                  We're a brand that believes in empowerment. That's why, we carefully curate products from around the globe which meet every want and need there could possibly be when it comes to your makeup and skincare regime.
+                  We believe in every interpretation of beauty. Bold to subdued, quirky to crazy, everyday to glam goddess!
+                    
+                   
+                    <span id="dots">...</span><span id="more">  Our aim is to celebrate every aspect of you, no matter what your style is.</span></p>
+
+                  <button onclick="myFunction()" id="myBtn">Read more</button>
+
+
+            </div>
+            <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+            </script>
+        </div>
+    </div>
+    
+    <div class="background-container1">
+      <div class="bg-5">
+    <div class="testimonial">
+      
+        <div class="small-container">
+          <div class="row">
+            <div class="col-3">
+              <i class="fas fa-quote-left"></i>
+              <p>
+                <h2>Virender Singh</h2>
+                Senior Operations Manager<br>
+                Past Experience : Operations Assistant Manager<br>
+                Education : Mahatma Ranjit Singh Punjab Technical University
+                </p>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <img src="https://i.ibb.co/zfXD2Tx/user-1.png" alt="" />
+              <h3></h3>
+            </div>
+    
+            <div class="col-3">
+              <i class="fas fa-quote-left"></i>
+              <i class="fas fa-quote-left"></i>
+              <p>
+              <h2>Virender Singh</h2>
+              Senior Operations Manager<br>
+              Past Experience : Operations Assistant Manager<br>
+              Education : Mahatma Ranjit Singh Punjab Technical University
+              </p>
+             
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <img src="https://i.ibb.co/FVyK1KM/user-2.png" alt="" />
+              <h3></h3>
+            </div>
+    
+            <div class="col-3">
+              <i class="fas fa-quote-left"></i>
+              <p>
+                <h2>Nivedika Mahadik</h2>
+                Global head<br>
+                Past experience : Software Engineer<br><br>
+              
+                </p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <img src="https://i.ibb.co/jZ3tQqK/user-3.png" alt="" />
+              <h3></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+  <!-- /* newsletter Start */ -->
+  <section id="newsletter">
+    <div class="news">
+        <h4>Sign Up For Newsletters</h4>
+        <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button>Sign Up</button>
+    </div>
+</section>
+<!-- /* newsletter End */ -->
+
+
+<!-- footer code start -->
+<div class="footer-container">
+  <div class="col">
+      <h4 class="contact">Contact</h4>
+      <p> <Strong>Address:</Strong> 462 Delhi, Street 32.
+      <p> <Strong>Phone:</Strong> +91 2222 345 234 </p>
+      <p> <Strong>Hours:</Strong> 10:00 - 18:00,Mon-Sat</p>
+      <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+           
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+      </div>
+  </div>
+
+  <div class="col">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+  </div>
+
+  <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+  </div>
+  <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+          <img src="./img/app.jpg" alt="">
+          <img src="./img/play.jpg" alt="">
+      </div>
+      <p class="payment">Secured Payment Gateways</p>
+      <img src="./img/pay.png" alt="">
+
+  </div>
+</div>
+
+<div class="sub-footer">
+  <div class="container flex subfooter-container">
+      <a class="hover-link" href="#">Privacy policy</a>
+      <a class="hover-link" href="#">Terms & Condition</a>
+      <a class="hover-link" href="#">Security information</a>
+      <a class="cp">Copyright © 2023 BAOIAM All rights reserved</p>
+
+  </div>
+</div>
+
+
+<script>
+    var MenuItems = document.getElementById('MenuItems');
+MenuItems.style.maxHeight = '0px';
+
+function menutoggle() {
+  if (MenuItems.style.maxHeight == '0px') {
+    MenuItems.style.maxHeight = '200px';
+  } else {
+    MenuItems.style.maxHeight = '0px';
+  }
+}
+</script>
+<script src="js/team2.js"></script>
+</body>
+</html>

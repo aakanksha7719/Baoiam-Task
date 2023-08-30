@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+
+}
+body{
+  scroll-behavior: smooth;
+}
+
+.explore{
+  /* background-image: linear-gradient(90deg,#632889,#783c9f,#a569ce,#b67edf); */
+
+    background-image: linear-gradient(90deg,#632889,#783c9f,#a569ce,#b67edf);
+
+
+}
+
+.image-slider1 {
+
+  margin: auto 10px;
+  margin:0px;
+  position: relative;
+  /* background-image: linear-gradient(90deg,#632889,#783c9f,#a569ce,#b67edf); */
+
+}
+  
+.slider-container1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  display:flex;
+  height: 360px;
+    
+}
+  
+.slider-images1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+  /* gap: 8px; */
+}
+  
+.slider-images1 img {
+  margin-top: 10px;
+  margin:11px;
+  padding: 0.1em;
+  object-fit: cover;
+  width:300px;
+  height:auto;
+  border-radius: 14px;
+
+}
+.slider-images1 img:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px #333);
+}
+.slider-controls1 {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev-btn1,
+.next-btn1 {
+  background: whitesmoke;
+  border: solid ;
+  border-radius: 30%;
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+  outline: none;
+  margin: 0 10px;
+}
+
+.prev-btn1 {
+  margin-right: auto;
+}
+
+.next-btn1 {
+  margin-left: auto;
+}
+
+
+  
+section .content h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+
+  /* text-align: center; */
+  font-size: 3.5rem;
+  /* color: #222; */
+  /* padding: 30px; */
+
+}
+
+section .content p{
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+
+
+  .slider {
+    width: 100%;
+    height: 510px;
+    position: relative;
+  }
+
+  .slider img {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* transition: all 0.5s ease-in-out; */
+  }
+
+  .slider img:first-child {
+    z-index: 1;
+  }
+
+  .slider img:nth-child(2) {
+    z-index: 0;
+  }
+
+  .navigation-button {
+    text-align: center;
+    position: relative;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+
+
+
+
+
+
+

@@ -1,0 +1,181 @@
+h1 {
+  color: black;
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+
+}
+.info2 p {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  color: #bf65e6;
+}
+.black {
+  color: black;
+  font-family: "Montserrat", sans-serif;  
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 16px;
+  padding-left: 10px;
+  text-align: left;
+  margin: 2px 2px 0px 2px;
+}
+.grey {
+
+
+
+  color: rgb(92, 104, 115);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding: 0px 0px 0px 10px;
+  text-align: left;
+  margin: 0px 2px 2px 2px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: normal;
+  margin: 0px 40px 0px 40px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  /* border-radius: 20px 20px 10px 10px; */
+  width: 48%;
+  margin: 10px;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 20px 20px 0px 0px;
+}
+.card-text {
+  height: 60px;
+  margin: 5px;
+  float: left;
+}
+
+/* Import Google font - Poppins */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+.wrapper{
+  display: flex;
+  max-width: 1600px;
+  position: relative;
+/* background-color: aqua; */
+}
+.wrapper i{
+  top: 50%;
+  height: 44px;
+  width: 44px;
+  color: #343F4F;
+  cursor: pointer;
+  font-size: 1.15rem;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.9);
+}
+.wrapper i:hover{
+  background: #f2f2f2;
+}
+.wrapper i:first-child{
+  left: -22px;
+  display: none;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  margin:20px 50px 20px 50px;
+}
+.carousel.dragging{
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.carousel.dragging img{
+  pointer-events: none;
+}
+.carousel img{
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5%;
+  user-select: none;
+  margin-left: 20px;
+  width: calc(100% / 5);
+}
+.carousel img:first-child{
+  margin-left: 0px;
+}
+.highlight-section {
+  background-color: white;
+  padding: 18px 0;
+}
+
+.highlight-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 20px auto;
+  
+}
+
+.highlight-item {
+  width: calc(14.28% - 20px);
+  margin-bottom: 5px;
+}
+
+.highlight-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.highlight-item h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  text-align:center;
+}
+
+
+@media screen and (max-width: 900px) {
+  .carousel img{
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carousel img{
+    width: 100%;
+  }
+}
+
+section .info2 h2{
+  display: flex;
+  justify-content: center;
+}
+
+section .info2 h3{
+  display: flex;
+  justify-content: center;
+}
