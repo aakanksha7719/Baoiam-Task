@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+<style>
+    .body{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .main{
+        margin-left: 250px;
+        margin-right: 180px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        border: solid 2px;
+        width: 800px;
+        height: 500px;
+    }
+    .img{
+        width: 420px;
+        height: 400px;
+        float: left;
+    }
+    .content{
+        float: left;
+        width: 300px;
+        height: 400px;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+        transition: .5s;
+        cursor: pointer;
+}
+    .sign{
+        font-size: 25px;
+    }
+    .sign:hover {
+       font-size: 30px;
+    }
+  
+</style>
+</head>
+
+<body style="font-family: 'Times New Roman', Times, serif;">
+<div class="main">
+    <div class="img">
+        <image class="img-" style="height: 500px; width: 400px;" src="C:\Users\HP\Desktop\InternCrowd\task 2\login img.jpg">
+    </div>
+
+    <div class="content" style="float: left;">
+        <br><br><br>
+        <div class="sign">
+        <b><center><p style="color: rgb(187, 97, 190);">Sign Up</p></center>
+        </div>
+        </b><br>
+        <br>
+        <form>      
+            <label> Username: </label>  &emsp; &emsp; &emsp; &emsp;
+            <input type="text" name="username" size="15"/> <br> <br>   
+            <label>Password: </label> &emsp; &emsp; &emsp; &emsp;
+            <input type="Password" id="pass" name="pass" size="15"> <br> <br>  
+            <br> <br> 
+            &emsp;  &emsp;  &emsp;
+            <button style="font-size: 16px; padding: 5px;" type="Submit">Login</button>
+            &emsp; 
+            <button style="font-size: 16px; padding: 5px;" type="Submit" onclick="replaceFunction()">Register New User</button>
+
+            <script>
+                function replaceFunction(){
+                    window.location.href = "file:///C:/Users/HP/Desktop/InternCrowd/task%202/signin.html?firstname=&email=&username=&pass=&repass=";
+            }
+            </script>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
+    
